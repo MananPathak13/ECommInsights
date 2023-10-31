@@ -9,6 +9,32 @@ ECommInsights is a data science project aimed at analyzing customer purchase beh
 - **Sales Forecasting**: Building and evaluating regression models to predict future sales.
 - **Insights and Recommendations**: Providing actionable insights for targeted marketing campaigns.
 
+## Project Structure 
+
+ECommInsights/
+│
+├── data/
+│   ├── raw_data.csv
+│   └── processed_data.csv
+│
+├── notebooks/
+│   ├── Data_Preprocessing.ipynb
+│   ├── Exploratory_Data_Analysis.ipynb
+│   └── Sales_Forecasting_and_Insights.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── exploratory_data_analysis.py
+│   └── sales_forecasting.py
+│
+├── requirements.txt
+│
+├── .gitignore
+│
+└── README.md
+
+
 ## Getting Started
 
 1. Clone this repository to your local machine.
